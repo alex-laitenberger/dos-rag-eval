@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# mac / cloud syncs
+.DS_Store
+.owncloudsync.log
+
+#config for api keys
+config.py
+
+# Ignore all files in experiments/
+/experiments/
+/nltk_data/
+/data/
