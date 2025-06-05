@@ -1,8 +1,8 @@
 # Experiment Environment for Evaluating DOS-RAG (Document's Original Structure - RAG)
 
-This repository contains the full experiment environment necessary to reproduce the experiments on the DOS-RAG in our paper:
+This repository contains the full experiment environment necessary to reproduce the experiments on the DOS-RAG method from our paper:
 
-**Stronger Baselines for Retrieval-Augmented Generation with Long-Context Language Models** (Laitenberger et al., 2025) - [Paper (TODO: add link)](arxiv.org) - [Repo-Overview](https://github.com/Lightnz/stronger-baselines-rag/)
+Alex Laitenberger, Christopher D. Manning and Nelson F. Liu. 2025. **Stronger Baselines for Retrieval-Augmented Generation with Long-Context Language Models**  - [Paper](https://www.arxiv.org/abs/2506.03989) - [Repo-Overview](https://github.com/Lightnz/stronger-baselines-rag/)
 
 ## Setup
 
@@ -233,7 +233,7 @@ E.g., the json-file for QuALITY results looks like this:
 
 ## References
 
-Alex Laitenberger, Christopher D. Manning and Nelson F. Liu. 2025. Stronger Baselines for Retrieval-Augmented Generation with Long-Context Language Models [Paper (TODO: add link)](www.arxiv.org) - [Github](https://github.com/Lightnz/stronger-baselines-rag/)
+Alex Laitenberger, Christopher D. Manning and Nelson F. Liu. 2025. Stronger Baselines for Retrieval-Augmented Generation with Long-Context Language Models [Paper](https://www.arxiv.org/abs/2506.03989) - [Github](https://github.com/Lightnz/stronger-baselines-rag/)
 
 Luke Merrick. 2024. Embedding and clustering your data can improve contrastive pretraining. - [Paper](https://arxiv.org/abs/2407.18887) - [Huggingface](https://huggingface.co/Snowflake/snowflake-arctic-embed-m-v1.5)
 
@@ -246,7 +246,23 @@ Xinrong Zhang, Yingfa Chen, Shengding Hu, Zihang Xu, Junhao Chen, Moo Khai Hao, 
 
 ## Citation
 
-TODO: add bibtex citation here
+Please cite our paper if you find it useful in your research.
+
+```
+Alex Laitenberger, Christopher D. Manning and Nelson F. Liu. 2025. Stronger Baselines for Retrieval-Augmented Generation with Long-Context Language Models. ArXiv:2506.03989.
+```
+
+```
+@misc{laitenberger2025strongerbaselinesretrievalaugmentedgeneration,
+      title={Stronger Baselines for Retrieval-Augmented Generation with Long-Context Language Models}, 
+      author={Alex Laitenberger and Christopher D. Manning and Nelson F. Liu},
+      year={2025},
+      eprint={2506.03989},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2506.03989}, 
+}
+```
 
 
 ## Credits
