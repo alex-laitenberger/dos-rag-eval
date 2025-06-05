@@ -244,6 +244,17 @@ ciation for Computational Linguistics, 6:317–328. - [Paper](https://arxiv.org/
 
 Xinrong Zhang, Yingfa Chen, Shengding Hu, Zihang Xu, Junhao Chen, Moo Khai Hao, Xu Han, Zhen Leng Thai, Shuo Wang, Zhiyuan Liu, and Maosong Sun. 2024. ∞bench: Extending long context evaluation beyond 100K tokens. In Proc. of ACL. - [Paper](https://arxiv.org/abs/2402.13718) - [Github](https://github.com/OpenBMB/InfiniteBench)
 
+
+## Credits
+
+The Vanilla-RAG method implementation (source/method) was adapted and modified from basic components of the RAPTOR repository ([GitHub link](https://github.com/parthsarthi03/raptor)), specifically:
+
+- The modular project structure, which allows for external instantiation of models such as `EmbeddingModels` and `QAModels` for injection into the RAG pipeline.
+- A basic approach to text chunking and retrieval, which has been adapted and modified for this implementation.
+
+This repository is designed as a full experiment environment for a Vanilla RAG implementation.
+
+
 ## Citation
 
 Please cite our paper if you find it useful in your research.
@@ -263,13 +274,3 @@ Alex Laitenberger, Christopher D. Manning and Nelson F. Liu. 2025. Stronger Base
       url={https://arxiv.org/abs/2506.03989}, 
 }
 ```
-
-
-## Credits
-
-The Vanilla-RAG method implementation (source/method) was adapted and modified from basic components of the RAPTOR repository ([GitHub link](https://github.com/parthsarthi03/raptor)), specifically:
-
-- The modular project structure, which allows for external instantiation of models such as `EmbeddingModels` and `QAModels` for injection into the RAG pipeline.
-- A basic approach to text chunking and retrieval, which has been adapted and modified for this implementation.
-
-This repository is designed as a full experiment environment for a Vanilla RAG implementation.
