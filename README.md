@@ -89,7 +89,7 @@ The NarrativeQA reading comprehension challenge (Kočiský et al., 2018) - [Pape
     bash download_stories.sh
     ```
 
-- Back in the raptor-eval repository run the preprocessing script to prepare the QA experiment.
+- Back in the dos-rag-eval repository run the preprocessing script to prepare the QA experiment.
 You might need to change the `NARRATIVE_QA_PATH` variable in case you did not clone the NarrativeQA repository into your home directory. 
     ```bash
     python -m source.data.narrative_qa.preprocess_narrative
