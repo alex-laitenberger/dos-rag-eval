@@ -247,12 +247,12 @@ Xinrong Zhang, Yingfa Chen, Shengding Hu, Zihang Xu, Junhao Chen, Moo Khai Hao, 
 
 ## Credits
 
-The Vanilla-RAG method implementation (source/method) was adapted and modified from basic components of the RAPTOR repository ([GitHub link](https://github.com/parthsarthi03/raptor)), specifically:
+The DOS-RAG method implementation (source/method) is based on some adapted and modified basic components of the RAPTOR repository ([GitHub link](https://github.com/parthsarthi03/raptor)), specifically:
 
 - The modular project structure, which allows for external instantiation of models such as `EmbeddingModels` and `QAModels` for injection into the RAG pipeline.
 - A basic approach to text chunking and retrieval, which has been adapted and modified for this implementation.
 
-This repository is designed as a full experiment environment for a Vanilla RAG implementation.
+This repository is designed as a full experiment environment for the DOS RAG method implementation, as evaluated in our paper.
 
 
 ## Citation
