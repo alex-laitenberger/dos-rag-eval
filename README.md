@@ -2,7 +2,7 @@
 
 This repository contains the full experiment environment necessary to reproduce the experiments on the DOS-RAG method from our paper:
 
-Alex Laitenberger, Christopher D. Manning and Nelson F. Liu. 2025. **Stronger Baselines for Retrieval-Augmented Generation with Long-Context Language Models**  - [Paper](https://www.arxiv.org/abs/2506.03989) - [Repo-Overview](https://github.com/Lightnz/stronger-baselines-rag/)
+Alex Laitenberger, Christopher D. Manning and Nelson F. Liu. 2025. **Stronger Baselines for Retrieval-Augmented Generation with Long-Context Language Models**  - [Paper](https://aclanthology.org/2025.emnlp-main.1656/) - [Repo-Overview](https://github.com/alex-laitenberger/stronger-baselines-rag/)
 
 ## Setup
 
@@ -260,17 +260,17 @@ This repository is designed as a full experiment environment for the DOS RAG met
 Please cite our paper if you find it useful in your research.
 
 ```
-Alex Laitenberger, Christopher D. Manning and Nelson F. Liu. 2025. Stronger Baselines for Retrieval-Augmented Generation with Long-Context Language Models. ArXiv:2506.03989.
+Alex Laitenberger, Christopher D. Manning and Nelson F. Liu. 2025. Stronger Baselines for Retrieval-Augmented Generation with Long-Context Language Models. In Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing.
 ```
 
 ```
-@misc{laitenberger2025strongerbaselinesretrievalaugmentedgeneration,
-      title={Stronger Baselines for Retrieval-Augmented Generation with Long-Context Language Models}, 
-      author={Alex Laitenberger and Christopher D. Manning and Nelson F. Liu},
-      year={2025},
-      eprint={2506.03989},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2506.03989}, 
+@inproceedings{laitenberger-2025-stronger,
+    title = "Stronger Baselines for Retrieval-Augmented Generation with Long-Context Language Models",
+    author = "Laitenberger, Alex  and
+      Manning, Christopher D.  and
+      Liu, Nelson F.",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    url = "https://aclanthology.org/2025.emnlp-main.1656/",
+    year = "2025"
 }
 ```
