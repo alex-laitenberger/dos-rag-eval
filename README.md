@@ -233,7 +233,7 @@ E.g., the json-file for QuALITY results looks like this:
 
 ## References
 
-Alex Laitenberger, Christopher D. Manning and Nelson F. Liu. 2025. Stronger Baselines for Retrieval-Augmented Generation with Long-Context Language Models [Paper](https://www.arxiv.org/abs/2506.03989) - [Github](https://github.com/Lightnz/stronger-baselines-rag/)
+Alex Laitenberger, Christopher D. Manning and Nelson F. Liu. 2025. Stronger Baselines for Retrieval-Augmented Generation with Long-Context Language Models. In Proc. of EMNLP. [Paper](https://aclanthology.org/2025.emnlp-main.1656/) - [Github](https://github.com/Lightnz/stronger-baselines-rag/)
 
 Luke Merrick. 2024. Embedding and clustering your data can improve contrastive pretraining. - [Paper](https://arxiv.org/abs/2407.18887) - [Huggingface](https://huggingface.co/Snowflake/snowflake-arctic-embed-m-v1.5)
 
